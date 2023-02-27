@@ -1,6 +1,8 @@
 *{
     margin:0;
     padding: 0;
+    font-family: myfirstfont;
+    
 }
 
 header{
@@ -10,12 +12,16 @@ header{
     justify-content: center;
     padding-top: 40px;
     padding-bottom: 280px;
-    column-gap: 100px;
+    column-gap: 200px;
 }
 
-ul{
+
+
+li{
     list-style-type: none;
     display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 a{
@@ -26,6 +32,7 @@ a{
 .contact{
     background-color: #ffffff;
     border-radius: 45px;
+    display: inline-block;
     color: black;
     padding-top: 18px;
     padding-left: 43px;
@@ -38,7 +45,7 @@ nav{
   text-align: center;
 }
 
-div{
+ div{
     margin-left: 30px;
 }
 
@@ -133,13 +140,11 @@ footer{
     height:25px ;
     width: 25px;
     padding-bottom: -55px;
-    
 }
 
-.p5{
-    display: inline-block;
-    margin: auto        ;
-}
-
-
+@font-face {
+    font-family: myFirstFont;
+    src: url(/fonts/Helvetica\ Neue\ Medium\ Extended.ttf);
+    font-weight: bold;
+  }
     
